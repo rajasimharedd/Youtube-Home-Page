@@ -1,0 +1,38 @@
+.side-bar {
+  position: fixed;
+  padding-top: 5px;
+  left: 0;
+  bottom: 0;
+  top: 56px;
+  background-color: white;
+  width: 72px;
+  border-right-color: rgb(240, 240, 240);
+  border-right-width: 1px;
+  border-right-style: solid;
+  font-size: 12px;
+}
+
+.sidebar-links {
+  background-color: white;
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar-links:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+.sidebar-links img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 5px;
+}
+
+.sidebar-links p {
+  font-size: 10px;
+  font-family: "Roboto";
+}
